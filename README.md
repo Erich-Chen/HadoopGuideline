@@ -59,9 +59,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-
 
 ```
 # 更新一下sourcelist
-    sudo apt update
+sudo apt update
 
-# 顺便安装SSH，hadoop通过SSH管理节点，后面再详细配置
+# 一起安装SSH，hadoop要通过SSH管理各个节点，后面再详细配置
 sudo apt install openssh-server -y
 
 # 安装OpenJava
@@ -73,7 +73,7 @@ java -version  #检查java版本，当前是openjdk-1.8.0_111
 # 当前版本是2.7.3，推荐给我的下载地址是：
 wget http://apache.mirrors.tds.net/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 tar -xzvf hadoop-2.7.3.tar.gz           #解压
-sudo mv hadoop-2.7.3 /usr/local/hadoop  #移动到公共位置
+sudo mv hadoop-2.7.3 /usr/local/hadoop  #移动到这个位置方面多用户访问   
 
 # 为Hadoop配置JAVA环境变量，只需要改下面一处即可
 sudo vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh
