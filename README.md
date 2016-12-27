@@ -19,7 +19,6 @@ slave3      | 192.168.88.103 | datanode
 安装完之后用自己的用户名登录进去，更新一下系统。  
 ```
 sudo apt update && sudo apt upgrade -yy
-sudo reboot
 ```
 
 ## 基本配置
@@ -103,7 +102,7 @@ sudo poweroff
 sudo vim /etc/hostname      #分别修改为master, slave1, slave2, slave3
 sudo vim /etc/network/interfaces    # address行分别修改为192.168.88.100/101/102/103
 
-sudo reboot     #修改完之后重启生效
+sudo reboot     #修改完之后，重启生效
 ```
 **#####################注意##############################**   
 **在此之前都是用主用户登录。在此之后都是用hduser用户登录。**
