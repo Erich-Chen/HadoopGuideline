@@ -132,5 +132,7 @@ ssh slave3
 
 ## Hadoop Cluster配置
 ```bash
-待续
+到这里基本上可以自由发挥了。
+官方手册应该是最好的manul了。
+http://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/ClusterSetup.html
 ```
