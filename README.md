@@ -135,4 +135,5 @@ ssh slave3
 到这里基本上可以自由发挥了。
 官方手册应该是最好的manul了。
 http://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/ClusterSetup.html
+后续的话，研究安全性和HA，以及大数据，就是另一个话题了，努力学习中。
 ```
