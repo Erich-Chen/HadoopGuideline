@@ -5,7 +5,7 @@ my guideline (in Chinese) to install Hadoop with VMPlayer
 
 我的host机器是windows 10，安装了对个人免费的VMWare Player，准备使用4个虚拟机，都安装Ubuntu Server 16.04.1 LTS。其中master作为namenode，slave1, slave2, slave3作为datanode。  
 
-注意：如果喜欢VirtualBox，可以考虑自己建立一个NAT Network并使用它，后面的配置差不多，一个有点是可以使用clone功能，更加方便。
+注意：如果喜欢VirtualBox，可以考虑自己建立一个NAT Network并使用它，后面的配置差不多，一个优点是可以使用clone功能，更加方便。
 参考命令：
 ```
 VBoxManage natnetwork add --netname nat-hadoop --network "192.168.88.0/24" --enable --dhcp on
