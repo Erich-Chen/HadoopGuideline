@@ -72,7 +72,7 @@ java -version  #检查java版本，当前是openjdk-1.8.0_111
 # 当前版本是2.7.3，推荐给我的下载地址是：
 wget http://apache.mirrors.tds.net/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 tar -xzvf hadoop-2.7.3.tar.gz           #解压
-sudo mv hadoop-2.7.3 /usr/local/hadoop  #移动到这个位置方面多用户访问   
+sudo mv hadoop-2.7.3 /usr/local/hadoop  #移动到这个位置方便多用户访问    
 
 # 为Hadoop配置JAVA环境变量，只需要改下面一处即可
 sudo vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh
@@ -133,7 +133,7 @@ ssh slave3
 ## Hadoop Cluster配置
 ```bash
 到这里基本上可以自由发挥了。
-官方手册应该是最好的manul了。
+官方手册应该是最好的资料。
 http://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/ClusterSetup.html
 后续的话，研究安全性和HA，以及大数据，就是另一个话题了，努力学习中。
 ```
